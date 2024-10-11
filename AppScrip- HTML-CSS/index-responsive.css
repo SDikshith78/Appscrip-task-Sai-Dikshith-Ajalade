@@ -1,0 +1,172 @@
+
+/* Media Queries */
+@media (max-width: 961px) {
+    .header-container {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .logo-title {
+        font-size: 18px; 
+    }
+
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .heading-desc h1 {
+        font-size: 70px; 
+    }
+
+    .heading-desc p {
+        font-size: 20px;
+    }
+
+    .items-Sectioninfo {
+        flex-direction: column; 
+    }
+
+    .slider-info {
+        gap: 5px; 
+    }
+
+    .product-section {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .footer-section {
+        flex-basis: 100%; 
+        margin-bottom: 20px; 
+    }
+}
+
+@media (max-width: 641px) {
+    .header-container {
+        padding: 5px 10px; 
+    }
+
+    .logo-title {
+        font-size: 16px; 
+    }
+
+    .icon {
+        height: 18px; 
+        width: 18px; 
+    }
+
+    nav {
+        padding: 5px 0; 
+    }
+
+    .heading-desc h1 {
+        font-size: 60px; 
+    }
+
+    .heading-desc p {
+        font-size: 18px; 
+    }
+
+    .items-Sectioninfo {
+        margin: 3% 0; 
+    }
+
+    .slider-info {
+        gap: 4px; 
+    }
+
+    .product-section {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .footer-section {
+        flex-basis: 100%; 
+    }
+}
+
+@media (max-width: 481px) {
+    .header-container {
+        padding: 5px; 
+    }
+
+    .logo-title {
+        font-size: 14px; 
+    }
+
+    .icon {
+        height: 16px; 
+        width: 16px;
+    }
+
+    nav {
+        padding: 2px 0; 
+    }
+
+    .heading-desc h1 {
+        font-size: 50px; 
+    }
+
+    .heading-desc p {
+        font-size: 16px; 
+    }
+
+    .items-Sectioninfo {
+        margin: 2% 0; 
+    }
+
+    .slider-info {
+        gap: 2px; 
+    }
+
+    .product-section {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .footer-section {
+        flex-basis: 100%; 
+    }
+}
+
+@media (max-width: 320px) {
+    .header-container {
+        padding: 5px 5px; 
+    }
+
+    .logo-title {
+        font-size: 12px; 
+    }
+
+    .icon {
+        height: 14px; 
+        width: 14px; 
+    }
+
+    nav {
+        padding: 1px 0; 
+    }
+
+    .heading-desc h1 {
+        font-size: 40px; 
+    }
+
+    .heading-desc p {
+        font-size: 14px; 
+    }
+
+    .items-Sectioninfo {
+        margin: 1% 0; 
+    }
+
+    .slider-info {
+        gap: 1px; 
+    }
+
+    .product-section {
+        grid-template-columns: 1fr; 
+    }
+
+    .footer-section {
+       
+        flex-basis: 100%; 
+    }
+}
